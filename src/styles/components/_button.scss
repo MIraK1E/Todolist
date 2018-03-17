@@ -1,0 +1,18 @@
+.button {
+    padding: $s-size;
+    background: none;
+    border: none;
+    color: $off-white;
+    font-weight: 500;
+}
+
+.button-input {
+    background: $off-black;
+    color: white;
+    font-weight: 500;
+    border-bottom: .6rem solid darken($off-black, 10%);
+}
+
+.button-widget__header {
+    padding: 0;
+}

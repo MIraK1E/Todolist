@@ -1,0 +1,53 @@
+.widget-header {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid darken($white, 7%);
+    background: white;
+    padding: $m-size;
+}
+
+.widget-header__title {
+    margin: 0;
+    color: $off-black;
+}
+
+.widget-body {
+    display: flex;
+    justify-content: space-between;
+    background: white;
+    border: 1px solid darken($white, 7%);
+    border-top:none;
+    padding: $s-size;
+    color: $off-black;
+}
+
+.widget-body-done {
+    @extend .widget-body;
+    background: $white;
+    p  {
+        text-decoration: line-through;
+    }
+}
+
+.widget__message {
+    margin: 0;
+    padding: 3.2rem;
+    text-align: center;
+    color:$off-black;
+    border: 1px solid darken($white, 7%);
+    background: white;
+    font-style: italic;
+}
+
+.widget-body__data {
+    display: flex;
+    align-items: center;
+}
+
+.widget-body__text {
+    font-size: 1.8rem;
+    word-break: break-all;
+    margin: 0;
+    font-weight: 500;
+    margin-left: $s-size;
+}

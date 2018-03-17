@@ -1,0 +1,29 @@
+.add-todo__input {
+    border: 1px solid #cacccd; 
+    padding: $s-size; 
+    flex-grow: 1;
+    margin: 0 0 $s-size 0;
+}
+
+.add-todo {
+    display: flex;
+    padding: $m-size 0 $m-size 0;
+    flex-direction: column;
+}
+
+.add-todo-error {
+    color: $off-white;
+    font-style: italic;
+    padding: 0 $m-size;
+    margin: $m-size 0 0 0;
+}
+
+@media (min-width: $desktop-breakpoint) {
+    .add-todo {
+        flex-direction: row;
+    }
+
+    .add-todo__input {
+        margin: 0 $s-size 0 0;
+    }
+}
